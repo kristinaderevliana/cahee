@@ -1,0 +1,440 @@
+@media screen and (max-width: 1200px) {
+  /* Header */
+  .header {
+    height: 100px;
+    width: 100%;
+    max-width: 850px;
+  }
+  
+  .header__container {
+    max-width: 850px;
+  }
+  
+  .header__logo img {
+    width: 110px;
+  }
+  
+  /* Navigation */
+  .nav__link {
+    margin-left: 25px;
+    font-size: 0.8rem;
+  }
+  
+  /* Banner */
+  .intro {
+    max-width: 850px;
+    max-height: 750px;
+  }
+  
+  .intro__inner {
+    height: 200px;
+  }
+  
+  .intro__title {
+    font-size: 3rem;
+  }
+  
+  .intro__subtitle {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  .btn {
+    width: 170px;
+    height: 50px;
+    font-size: 1.05rem;
+  }
+  
+  /* Scroll */
+  .scroll {
+    width: 20px;
+    height: 36px;
+  }
+
+  /* About us */
+  .block_green {
+    max-height: 600px;
+  }
+  
+  .block__inner__about-us {
+    width: 850px;
+  }
+  
+  .block__image img {
+    width: 500px;
+  }
+  
+  .block__text_1 {
+    width: 450px;
+    margin-left: 15px;
+  }
+  
+  .block__title_1 {
+    font-size: 3.8rem;
+  }
+  
+  .block__subtitle {
+    font-size: 0.9rem;
+  }
+  
+  /* Services */
+  .services {
+    height: 550px;
+  }
+  
+  .services__container {
+    width: 850px;
+    height: 540px;
+  }
+  
+  .services__btn_inner {
+    width: 330px;
+    height: 400px;
+  }
+  
+  .services__btn {
+    width: 330px;
+    height: 80px;
+  }
+  
+  .services__btn_name {
+    width: 250px;
+  }
+  
+  .services__name {
+    font-size: 1rem;
+  }
+  
+  .services__btn_icon {
+    width: 80px;
+  }
+  
+  .services__icon {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  
+  .services__image_container {
+    height: 430px;
+    width: 450px;
+  }
+  
+  .services__image {
+    height: 410px;
+    width: 430px;
+  }
+  
+  .services__title {
+    font-size: 4.5rem;
+  }
+  
+  /* Gallery */
+  .gallery {
+    height: 1050px;
+  }
+  
+  .gallery__container {
+    width: 750px;
+    height: 900px;
+  }
+  
+  .gallery__title_container {
+    height: 160px;
+    width: 560px;
+  }
+  
+  .gallery__title {
+    font-size: 4.5rem;
+  }
+  
+  .gallery__subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .gallery__image_container {
+    width: 750px;
+    height: 630px;
+  }
+  
+  .gallery__btn {
+    width: 170px;
+    height: 50px;
+    font-size: 1.05rem;
+  }
+  
+  .gallery__btn:hover {
+    letter-spacing: 0.07em;
+  }
+  
+  /* Subscribe */
+  .subscribe {
+    height: 400px;
+  }
+  
+  .subscribe__container {
+    max-width: 850px;
+  }
+  
+  .subscribe__inner {
+    width: 850px;
+    height: 200px;
+  }
+  
+  .subscribe__info {
+    width: 300px;
+    height: 135px;
+  }
+  
+  .subscribe__title {
+    font-size: 2rem;
+  }
+  
+  .subscribe__subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .subscribe__form_container {
+    width: 520px;
+    height: 40px;
+  }
+  
+  .subscribe__form_container input {
+    height: 40px;
+    width: 370px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input::-webkit-input-placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input::-moz-placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input:-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input::-ms-input-placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input::placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__form_container input:focus {
+    font-size: 0.9rem;
+  }
+  
+  .subscribe__btn {
+    width: 130px;
+    font-size: 1rem;
+  }
+  
+  /* Blog */
+  .block_purple {
+    height: 650px;
+  }
+  
+  .block__inner__title {
+    max-width: 850px;
+  }
+  
+  .main__section__container {
+    width: 850px;
+    margin: 0 0 40px 0;
+  }
+  
+  .block__section_bg_1 {
+    width: 280px;
+    height: 235px;
+  }
+  
+  .block__section_bg_2 {
+    width: 280px;
+    height: 235px;
+  }
+  
+  .block__section_bg_3 {
+    width: 280px;
+    height: 235px;
+  }
+  
+  .block__section_container {
+    width: 280px;
+    height: 235px;
+    padding: 15px;
+  }
+  
+  .info__date {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .date__container {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .block__text_2 {
+    width: 475px;
+    height: 250px;
+  }
+  
+  .block__title_2 {
+    margin-bottom: 15px;
+    font-size: 4.5rem;
+  }
+  .block__subtitle_3 {
+    font-size: 0.9rem;
+  }
+  
+  .info__date_day {
+    font-size: 1.3rem;
+  }
+  
+  .info__date_month {
+    font-size: 0.9rem;
+  }
+  
+  .info__text {
+    width: 250px;
+    height: 60px;
+  }
+  
+  .info__title_1 {
+    font-size: 1rem;
+  }
+  
+  .info__subtitle_1 {
+    font-size: 0.7rem;
+  }
+  
+  /* Contact */
+  .contact {
+    min-height: 605px;
+  }
+  
+  .contact__container {
+    height: 515px;
+    width: 850px;
+  }
+  
+  .contact__container_title {
+    width: 300px;
+    height: 120px;
+    overflow: visible;
+  }
+  
+  .info__container {
+    width: 750px;
+    height: 350px;
+  }
+  
+  .form__container {
+    width: 400px;
+    height: 350px;
+  }
+  
+  .form__container input,
+  .form__container textarea {
+    height: 40px;
+  }
+  
+  .form__container textarea {
+    height: 200px;
+  }
+  
+  .form__container input,
+  .form__container textarea {
+    font-size: 0.7rem;
+    padding-left: 10px;
+  }
+  
+  .form__container input::-webkit-input-placeholder, .form__container textarea::-webkit-input-placeholder {
+    font-size: 0.7rem;
+  }
+  
+  .form__container input::-moz-placeholder, .form__container textarea::-moz-placeholder {
+    font-size: 0.7rem;
+  }
+  
+  .form__container input:-ms-input-placeholder, .form__container textarea:-ms-input-placeholder {
+    font-size: 0.7rem;
+  }
+  
+  .form__container input::-ms-input-placeholder, .form__container textarea::-ms-input-placeholder {
+    font-size: 0.7rem;
+  }
+  
+  .form__container input::placeholder,
+  .form__container textarea::placeholder {
+    font-size: 0.7rem;
+  }
+  
+  .form__container input:focus,
+  .form__container textarea:focus {
+    padding: 0 10px 0 10px;
+  }
+  
+  .form__container textarea {
+    padding-top: 10px;
+  }
+  
+  .form__container textarea:focus {
+    padding-top: 10px;
+  }
+  
+  .info__data {
+    width: 300px;
+    height: 350px;
+  }
+  
+  .data__container {
+    height: 150px;
+  }
+  
+  .contact__title {
+    font-size: 4.5rem;
+    overflow: visible;
+  }
+  
+  .contact__subtitle {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    overflow: visible;
+  }
+  
+  .data__title {
+    font-size: 0.9rem;
+  }
+  
+  .data__subtitle {
+    font-size: 1rem;
+  }
+  
+  /* footer */
+  footer {
+    height: 40px;
+    font-size: 0.6rem;
+  }
+  
+  .footer__container {
+    width: 850px;
+  }
+  
+  .footer__inner {
+    height: 35px;
+  }
+  
+  .footer__inner img {
+    width: 40px;
+  }
+}

@@ -1,0 +1,437 @@
+@media screen and (max-width: 1024px) {
+  /* Header */
+  .header {
+    height: 60px;
+    padding: 10px 0;
+  }
+
+  .header__container {
+    max-width: 700px;
+  }
+
+  .header__logo img {
+    width: 75px;
+  }
+
+  .nav {
+    overflow: visible;
+  }
+
+  .nav a {
+    overflow: visible;
+  }
+
+  .nav__link::before {
+    height: 2px;
+  }
+
+  /* Navigation */
+  .nav__link {
+    margin-left: 15px;
+    font-size: 0.7rem;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  /* Banner */
+  .intro {
+    max-width: 700px;
+    max-height: 600px;
+  }
+
+  .intro__inner {
+    height: 160px;
+  }
+
+  .intro__title {
+    font-size: 2.4rem;
+  }
+
+  .intro__subtitle {
+    font-size: 0.8rem;
+  }
+
+  /* Button */
+  .btn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  /* Scroll */
+  .scroll {
+    width: 15px;
+    height: 32px;
+  }
+
+  /* About us */
+  .block_green {
+    max-height: 600px;
+  }
+
+  .block__inner__about-us {
+    width: 700px;
+  }
+
+  .block__image {
+    width: 400px;
+  }
+
+  .block__image img {
+    width: 400px;
+  }
+
+  .block__text_1 {
+    width: 400px;
+    margin-left: 10px;
+  }
+    .block__title_1 {
+    font-size: 3.3rem;
+  }
+
+  .block__subtitle {
+    font-size: 0.7rem;
+  }
+
+   /* Services */
+  .services {
+    height: 470px;
+  }
+
+  .services__container {
+    width: 700px;
+    height: 460px;
+  }
+
+  .services__btn_inner {
+    width: 250px;
+    height: 300px;
+  }
+
+  .services__btn {
+    width: 250px;
+    height: 60px;
+  }
+
+  .services__btn_name {
+    width: 250px;
+  }
+
+  .services__name {
+    font-size: 0.9rem;
+  }
+
+  .services__btn_icon {
+    width: 80px;
+  }
+
+  .services__icon {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+
+  .services__image_container {
+    height: 330px;
+    width: 340px;
+  }
+
+  .services__image {
+    height: 330px;
+    width: 340px;
+  }
+
+  .services__title {
+    font-size: 3.5rem;
+  }
+
+  /* Gallery */
+  .gallery {
+    height: 950px;
+  }
+
+  .gallery__container {
+    width: 700px;
+    height: 820px;
+  }
+
+  .gallery__title_container {
+    height: 130px;
+    width: 450px;
+  }
+
+  .gallery__title {
+    font-size: 3.9rem;
+  }
+
+  .gallery__subtitle {
+    font-size: 0.7rem;
+  }
+
+  .gallery__image_container {
+    width: 700px;
+    height: 600px;
+  }
+
+  .gallery__btn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  /* Subscribe */
+  .subscribe {
+    height: 250px;
+  }
+
+  .subscribe__container {
+    max-width: 700px;
+  }
+
+  .subscribe__inner {
+    width: 700px;
+    height: 150px;
+  }
+
+  .subscribe__info {
+    width: 300px;
+    height: 90px;
+  }
+
+  .subscribe__title {
+    font-size: 1.8rem;
+  }
+
+  .subscribe__subtitle {
+    font-size: 0.7rem;
+    line-height: 1.4;
+  }
+
+  .subscribe__form_container {
+    width: 450px;
+    height: 40px;
+  }
+
+  .subscribe__form_container input {
+    height: 30px;
+    width: 330px;
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input::-webkit-input-placeholder {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input::-moz-placeholder {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input:-ms-input-placeholder {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input::-ms-input-placeholder {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input::placeholder {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__form_container input:focus {
+    font-size: 0.7rem;
+  }
+
+  .subscribe__btn {
+    width: 100px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+
+  /* Blog */
+  .block_purple {
+    height: 480px;
+  }
+
+  .block__inner__title {
+    max-width: 700px;
+  }
+
+  .main__section__container {
+    width: 670px;
+    margin: 0 0 30px 0;
+  }
+
+  .block__section_bg_1 {
+    width: 220px;
+    height: 180px;
+  }
+
+  .block__section_bg_2 {
+    width: 220px;
+    height: 180px;
+  }
+
+  .block__section_bg_3 {
+    width: 220px;
+    height: 180px;
+  }
+
+  .block__section_container {
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+  }
+
+  .info__date {
+    width: 30px;
+    height: 30px;
+  }
+
+  .date__container {
+    width: 30px;
+    height: 30px;
+  }
+
+  .block__text_2 {
+    width: 400px;
+    height: 180px;
+  }
+
+  .block__title_2 {
+    margin-bottom: 5px;
+    font-size: 3.9rem;
+  }
+
+  .block__subtitle_3 {
+    font-size: 0.7rem;
+  }
+
+  .info__date_day {
+    font-size: 0.9rem;
+  }
+
+  .info__date_month {
+    font-size: 0.6rem;
+  }
+
+  .info__text {
+    width: 200px;
+    height: 50px;
+  }
+
+  .info__title_1 {
+    font-size: 0.8rem;
+  }
+
+  .info__subtitle_1 {
+    font-size: 0.5rem;
+  }
+
+  /* Contact */
+  .contact {
+    min-height: 550px;
+  }
+
+  .contact__container {
+    height: 435px;
+    width: 700px;
+  }
+
+  .contact__container_title {
+    width: 350px;
+    height: 100px;
+  }
+
+  .info__container {
+    width: 650px;
+    height: 300px;
+  }
+
+  .form__container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .form__container input,
+  .form__container textarea {
+    height: 35px;
+  }
+
+  .form__container textarea {
+    height: 160px;
+  }
+
+  .form__container input,
+  .form__container textarea {
+    font-size: 0.6rem;
+    padding-left: 10px;
+  }
+
+  .form__container input::-webkit-input-placeholder, .form__container textarea::-webkit-input-placeholder {
+    font-size: 0.6rem;
+  }
+
+  .form__container input::-moz-placeholder, .form__container textarea::-moz-placeholder {
+    font-size: 0.6rem;
+  }
+
+  .form__container input:-ms-input-placeholder, .form__container textarea:-ms-input-placeholder {
+    font-size: 0.6rem;
+  }
+
+  .form__container input::-ms-input-placeholder, .form__container textarea::-ms-input-placeholder {
+    font-size: 0.6rem;
+  }
+
+  .form__container input::placeholder,
+  .form__container textarea::placeholder {
+    font-size: 0.6rem;
+  }
+
+  .info__data {
+    width: 300px;
+    height: 300px;
+  }
+
+  .data__container {
+    height: 150px;
+  }
+
+  .contact__title {
+    font-size: 3.9rem;
+    line-height: 1;
+  }
+
+  .contact__subtitle {
+    font-size: 0.7rem;
+  }
+
+  .data__title {
+    font-size: 0.7rem;
+  }
+
+  .data__subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* footer */
+  footer {
+    height: 35px;
+    font-size: 0.5rem;
+  }
+
+  .footer__container {
+    width: 700px;
+  }
+
+  .footer__inner {
+    height: 35px;
+  }
+
+  .footer__inner img {
+    width: 35px;
+  }
+}
